@@ -1,0 +1,179 @@
+body
+{
+	border: 5px solid black;
+	background: linear-gradient(45deg,orange,white,green);
+}
+header
+{
+	display: flex;
+}
+h1
+{
+	text-align: center;
+	background: linear-gradient(45deg,orange,white,green);
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	position: relative;
+	width: 100%;
+
+}
+div a 
+{
+	position: relative;
+	margin-left: 1160px;
+	display: inline-block;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -80px;
+	font-size: 50px;
+	text-decoration: none;
+	color: blue;
+	margin-right: -8px;
+}
+div a:hover
+{
+	color: blue;
+	display: inline-block;
+	border-radius: 20px;
+}
+div img 
+{
+	margin-left: 5px;
+	display: inline-block;
+	border: 5px solid blue;
+	margin-top: -10px;
+}
+#a img
+{
+	margin-top: 60px;
+}
+#b  img
+{
+	margin-top: 60px;
+}
+#c img
+{
+	margin-top: 60px;
+}
+marquee
+{
+	margin-top: 55px;
+	background: linear-gradient(45deg,orange,white,green);
+	margin-left: 0px;
+}
+ #c a
+{
+	margin-top: -110px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 420px;
+}
+#b a 
+{
+	margin-top: -90px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 420px;
+
+}
+#a a 
+{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-left: 420px;
+}
+#r 
+		{
+			position: relative;
+			background-color: orange;
+			border-radius: 10px;
+			display: flex;
+			justify-content: right;
+			margin-left: 1146px;
+			margin-top: -70px;
+			font-size: 25px;
+			left: -50px;
+			padding: 5px;
+
+		}
+		@media (min-width: 100px) and (max-width: 1279px)
+		{
+			header,h1
+			{
+				display: flex;
+				height: 70px;
+				flex-direction: column;
+				width: 458px;
+			}
+			#r a 
+			{
+				display: flex;
+				height: 400px;
+				flex-direction: column;
+
+			}
+			#a img
+			{
+				display: flex;
+				margin-top: 100px;
+				height: 100px;
+				width: 442px;
+				flex-direction: column;
+			}
+			#a a 
+			{
+				display: flex;
+				height: 200px;
+				margin-left: -100px;
+				margin-top: -70px;
+			}
+			#b img
+			{
+				display: flex;
+				height: 100px;
+				width: 442px;
+				margin-top: -50px;
+			}
+			#b a
+			{
+				display: flex;
+				height: 200px;
+				margin-left: -100px;
+				margin-top: -70px;
+			}
+			#c img
+			{
+				display: flex;
+				height: 200px;
+				margin-left: 0px;
+				margin-top: -50px;
+				width: 446.5px;
+			}
+			#c a 
+			{
+				display: flex;
+				height: 200px;
+				margin-left: -100px;
+				margin-top: -70px;
+			}
+			marquee
+			{
+				width: 458px;
+			}
+			#r 
+			{
+				display: inline-block;
+				margin-left: 360px;
+				margin-top: 4px;
+				left: -179px;
+				padding: 5px;
+			}
+		}
